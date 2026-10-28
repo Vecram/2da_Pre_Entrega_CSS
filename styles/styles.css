@@ -1,0 +1,228 @@
+/* ==========================================================================
+   RESET Y GLOBAL
+   ========================================================================== */
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'inter', sans-serif;
+    line-height: 1.6;
+}
+
+.margenes_globales {
+    margin: 2.5rem;
+}
+
+/* ==========================================================================
+   NAVEGACIÓN
+   ========================================================================== */
+.logo_y_lista {
+    margin: 2.5rem;
+}
+
+.logo_y_lista img , a {
+    width: 7rem;
+    color: #ff0000;
+}
+
+ul {    
+    list-style: none;
+    display:inline-block;
+}
+
+ul a {
+    font-size: 1.35rem;
+    margin: 2.5rem;
+}
+
+.nav_item a {
+    color:rgb(83, 0, 116);
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.redes a {
+    font-size: 1.1rem;
+    margin: 0rem 2rem 0rem 0rem;
+    color: rgb(83, 0, 116);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.redes a img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.redes a:hover {
+    background-color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.redes a:hover img {
+    transform: scale(1.1);
+}
+
+/* ==========================================================================
+   INDEX
+   ========================================================================== */
+.contenedor_hero span {
+    font-size: 1.1rem;
+}
+
+.contenedor_hero {
+    padding: 2.5rem;
+    background: linear-gradient(75deg, rgb(128, 47, 91), hsl(320, 42%, 64%), hsl(350, 100%, 90%));
+    border-radius: 0.7rem;
+}
+
+.contenedor_hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.47;
+    margin-bottom: 1.2rem;
+}
+
+.contenedor_hero p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.contenedor_hero button {
+    margin: 1.5rem 0rem 0rem auto;
+    padding: 1rem;
+    
+    font-size: 1.4rem;
+    font-weight: 600;   
+    
+    border-radius: 0.7rem;  
+    
+    display: block;    
+}
+
+.info {
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.cards {
+    background-color: #d4a7c2;;
+    margin: 0rem 0rem 2rem 0rem;
+    padding: 1.5rem;
+    border-radius: 0.7rem;
+}
+
+.cards .cards_image {
+    width: 2rem;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+/* ==========================================================================
+   FAQ - SOBRE MI
+   ========================================================================== */
+.contenedor_hero_faq {
+    padding: 2.5rem;
+    background: linear-gradient(75deg, rgb(128, 47, 91), hsl(320, 42%, 64%), hsl(350, 100%, 90%));
+    border-radius: 0.7rem;
+}
+
+.contenedor_hero_faq h1 {
+    margin-bottom: 1rem;
+}
+
+.contenedor_hero_faq p{
+    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.diseño_areas h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.diseño_areas article {
+    background-color: #d4a7c2;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 0.7rem;
+}
+
+.diseño_areas h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;    
+}
+
+.diseño_areas p {
+    font-size: 1.1rem;
+}
+
+/* ==========================================================================
+   CONTACTO
+   ========================================================================== */
+
+.margenes_globales_form {
+    background-color: hsl(332, 100%, 95%);
+    margin: 2.5rem;
+    padding: 2rem;
+    
+    border-radius: 0.7rem;
+}
+
+.formulario_contacto {
+    width: 100%;
+}
+
+.formulario_contacto_campo {
+    margin-bottom: 15px;
+}
+
+.formulario_contacto_label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.formulario_contacto_input,
+.formulario_contacto_textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.formulario_contacto_textarea {
+    resize: vertical;
+}
+
+.formulario_contacto_boton {
+    padding: 10px 20px;
+    cursor: pointer;
+}
